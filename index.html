@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player de Música</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8e885f027d.js" crossorigin="anonymous"></script>
+<body>
+    <img src="img/juicewrldbandit.jpg">
+    <div class="descricaoMusica">
+        <h2>musica</h2>
+        <!--tag i para deixar texto em itálico-->
+        <i>Juice Wrld</i>
+    </div>
+    <div class="duracaoMusica">
+        <div class="barra">
+            <progress value="1" max="1"></progress>
+            <div class="ponto"></div>
+        </div>
+        
+        <div class="tempo">
+            <p class="inicio">0:00</p>
+        </div>
+    </div>
+    <div class="playerMsc">
+        <!--icones do fontAwesome-->
+        <i class="fa-solid fa-backward-step setas anterior"></i>
+        <i class="fa-regular fa-circle-play botao-play"></i>
+        <i class="fa-regular fa-circle-pause botao-pause"></i>
+        <i class="fa-solid fa-forward-step setas posterior"></i>
+    </div>
+    <audio src="msc/Juice WRLD - Bandit ft. NBA Youngboy.mp3"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
